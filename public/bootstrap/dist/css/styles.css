@@ -1,5 +1,5 @@
 body{
-    font-family: 'PT Sans';
+    font-family: 'Barlow';
     background-color: #EFEFEF;
 }
 
@@ -50,7 +50,7 @@ body{
 
 .navbar-custom.scroll{
     background-color: #4CB8A8;
-    box-shadow: 0px 3px 2px rgb(160, 160, 160);
+    box-shadow: 0px 3px 2px #4CB8A8;
 }
 
 .navbar-nav > li > a{
@@ -260,4 +260,81 @@ footer{
 .learn{
     margin-top: 70px;
     margin-left: 1050px;
+}
+
+
+.items{
+    width: 900px;
+    margin-bottom: 10px;
+    margin-left: -90px;
+}
+
+.card-header{
+    height: 40px;
+    background-color: #4CB8A8;
+}
+
+.round{
+    background-color: #4CB8A8;
+}
+
+.product{
+    margin-left: 10px;
+    height: 210px;
+    width: 250px;
+    background-color: #f1f1f1;
+}
+
+.second{
+    margin-top: 10px;
+}
+
+.prodImage{
+    width: 230px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.prodTitle{
+    margin-left: 5px;
+    color: #888;
+}
+
+.prodPrice{
+    margin-right:5px ;
+    float: right;
+    color: #888;
+}
+
+.round-cart{
+    margin: 5px;
+}
+
+.round-cart:hover{
+    cursor: pointer;
+}
+
+.about{
+    margin-top: 70px;
+    color: #1B2939;
+    font-size: 50px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.row-custom{
+    margin-left: 70px;
+}
+
+.about-us{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.explained{
+    text-align: center;
+    margin-top: 30px;
+    color: #4CB8A8;
 }

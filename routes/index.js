@@ -14,5 +14,16 @@ router.get('/products', (req, res) => {
     });
 });
 
+router.get('/blog', (req, res) => {
+    res.render('blog',{
+        title: 'Blog'
+    });
+});
+
+router.get('/about', (req, res) => {
+    res.render('about',{
+        title: 'About Us'
+    });
+});
 
 module.exports = router; 
