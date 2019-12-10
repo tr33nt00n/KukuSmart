@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <%- include ('partials/head.ejs') %>
-</head>
 
+    <%- include ('partials/head.ejs') %>
+
+</head>
 <body>
 
     <%- include ('partials/headerProd.ejs') %>
@@ -15,18 +15,21 @@
                 aria-describedby=" button-addon2">
         </div>
 
-        <div class="card offer">
-            <div class="card-body">
-                <h3 class="free">Free delivery for 30 days within Dar es Salaam Region </h3>
-                <h4 class="empha">Offer is only valid for products that are within 50,000 Tshs Price Range</h4>
-                <p class="learn"> Learn More <i class="fa fa-arrow-circle-right"></i> </p>
+        <div class="container mb-4 mt-4">
+            <div class="card offer">
+                <div class="card-body">
+                    <h3 class="free">Free delivery for 30 days within Dar es Salaam Region </h3>
+                    <h4 class="empha">Offer is only valid for products that are within 50,000 Tshs Price Range</h4>
+                    <p class="learn"> Learn More <i class="fa fa-arrow-circle-right"></i> </p>
+                </div>
             </div>
         </div>
 
-        <div class="container items">
+        <div class="container mb-3">
+            <div class="items">
             <div class="row">
-                <div class="col-4">
-                    <div class="card ">
+                <div class="col-lg-4 col-md-4 col-sm mb-3">
+                    <div class="card">
                         <article class="card-group-item">
                             <header class="card-header">
                                 <h6 class="title">Price Range input </h6>
@@ -81,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-lg-8 col-md-8 col-sm">
                     <div class="row">
                         <div class="card product">
                             <img class="prodImage" src="/public/images/img_a.jpg">
@@ -94,10 +97,9 @@
                             <h5 class="prodTitle">Chicken <span class="prodPrice">Tshs 30,000</span></h5>
                             <span class="float-right badge badge-light round round-cart">Add to Cart</span>
                         </div>
-
                     </div>
 
-                    <div class="row second">
+                    <div class="row">
                         <div class="card product">
                             <img class="prodImage" src="/public/images/img_a.jpg">
                             <h5 class="prodTitle">Chicken <span class="prodPrice">Tshs 30,000</span></h5>
@@ -111,16 +113,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+        </div>
         </div>
     </div>
 
     <%- include ('partials/footer.ejs') %>
-
     <%- include ('partials/tail.ejs') %>
 
-
 </body>
-
 </html>
